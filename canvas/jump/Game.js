@@ -1,13 +1,9 @@
 import Rectangle from "./Rectangle.js";
 
 let Game = (function GameIIFE() {
-    let canvas = document.createElement("canvas");
-    canvas.width = "500";
-    canvas.height = "500";
-
-    document.body.append(canvas);
-
+    let canvas  = document.querySelector("canvas");
     let players = [];
+
     window.requestAnimationFrame(paint);
 
     return {
@@ -34,6 +30,7 @@ let Game = (function GameIIFE() {
 
         ctx.beginPath();
         ctx.rect(playerData.x, playerData.y, playerData.width, playerData.height);
+        ctx.fillStyle = playerData.color;
         ctx.fill();
     }
 }());

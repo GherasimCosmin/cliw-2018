@@ -1,10 +1,5 @@
 class Rectangle {
-    constructor(x, y, options = {
-        width: 50,
-        height: 50,
-        MAX_JUMP_HEIGHT: 50,
-        JUMP_STEP: 5
-    }) {
+    constructor(x, y, options = {}) {
         this.x = x;
         this.y = y;
         this.options = Object.assign({}, {
@@ -12,7 +7,8 @@ class Rectangle {
             height: 50,
             MAX_JUMP_HEIGHT: 50,
             JUMP_STEP: 5,
-            keyCode: 38
+            keyCode: 38,
+            color: "black"
         }, options);
 
 
@@ -31,7 +27,8 @@ class Rectangle {
             x: this.x,
             y: this.y + this._JUMP_HEIGHT,
             width: this.options.width,
-            height: this.options.height
+            height: this.options.height,
+            color: this.options.color
         }
     }
     onKeyUp({
