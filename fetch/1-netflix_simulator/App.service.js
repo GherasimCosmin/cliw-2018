@@ -11,7 +11,7 @@ function getPermission(force) {
             if (force === true || decision) {
                 console.info("Permissions granted!");
                 resolve();
-            } else if (force === false || !decision) {
+            } else {
                 console.info("Permissions failed");
                 reject({
                     reason: "Permission denied!"
@@ -33,7 +33,7 @@ function getVideoDetails(force) {
                     id: "breaking-bad",
                     description: "Breaking Bad is an American neo-Western crime drama television series created and produced by Vince Gilligan. The show originally aired on the AMC network for five seasons, from January 20, 2008 to September 29, 2013."
                 });
-            } else if (force === false || !decision) {
+            } else {
                 console.info("Video details failed!");
                 reject({
                     reason: "Network error"
