@@ -50,7 +50,6 @@ function drawMountains() {
     ctx.lineTo(150, 100);
     ctx.lineTo(175, 0);
     ctx.lineTo(200, 200);
-    ctx.closePath();
 
     ctx.fillStyle = "black";
     ctx.fill();

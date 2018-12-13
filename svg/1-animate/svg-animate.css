@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+svg {
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+}
+
+#rightArm {
+    animation: wave .5s linear infinite;
+    transform-origin: center;
+    position: relative;
+
+}
+
+#rightArm::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 5px;
+    background: red;
+}
+
+@keyframes wave {
+    50% {
+        transform: rotate(-25deg);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
+}
