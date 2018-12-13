@@ -18,6 +18,7 @@ let Game = (function GameIIFE() {
 
     function paint() {
         let ctx = canvas.getContext("2d");
+        
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         players.forEach(drawPlayer);
@@ -27,7 +28,7 @@ let Game = (function GameIIFE() {
     function drawPlayer(player) {
         let ctx = canvas.getContext("2d");
         let playerData = player.getData();
-
+        
         ctx.beginPath();
         ctx.rect(playerData.x, playerData.y, playerData.width, playerData.height);
         ctx.fillStyle = playerData.color;
