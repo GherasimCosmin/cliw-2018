@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
+    insertDOM();
+    
     let controlBtnList = document.querySelectorAll(".gallery-controls button");
 
     let galleryContentWrapper = document.querySelector(".gallery-content");
@@ -36,6 +38,48 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 })
 
+function insertDOM() {
+    // Header
+    let header = document.createElement("header");
+    header.innerHTML = `<h1>
+        <span class="highlight--yellow">Optimize</span> this
+        <i class="far fa-hand-point-down"></i>
+    </h1>`;
+
+    // Main
+    let main = document.createElement("main");
+    main.innerHTML = `<div class="gallery-controls">
+        <button data-state="2x" class="is--selected fas fa-th-large"></button>
+        <button data-state="3x" class="fas fa-th"></button>
+        <button data-state="swiper" class="far fa-images"></button>
+        <button data-state="map" id="mapBtn" class="fas fa-map-marked-alt"></button>
+    </div>
+    <div class="gallery-content">
+        <ul class="gallery-content__images">
+            <li><img src="assets/images/bike_1.jpg"></li>
+            <li><img src="assets/images/bike_2.jpg"></li>
+            <li><img src="assets/images/bike_3.jpg"></li>
+            <li><img src="assets/images/bike_4.jpg"></li>
+            <li><img src="assets/images/bike_5.jpg"></li>
+            <li><img src="assets/images/bike_6.jpg"></li>
+            <li><img src="assets/images/bike_7.jpg"></li>
+            <li><img src="assets/images/bike_8.jpg"></li>
+            <li><img src="assets/images/bike_9.jpg"></li>
+        </ul>
+        <div class="gallery-content__map">
+            <span>0 location-based images</span>
+            <div id="map"></div>
+        </div>
+    </div>`;
+   
+    // Footer
+    let footer = document.createElement("footer");
+    footer.innerHTML = `<p>Made with <span class="heart">❤</span> by <a href="https://iampava.com">Pava</a></p>`;
+
+    document.body.appendChild(header);
+    document.body.appendChild(main);
+    document.body.appendChild(footer);
+}
 
 
 var initMap = (function () {
