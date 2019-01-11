@@ -56,15 +56,15 @@ function insertDOM() {
     </div>
     <div class="gallery-content">
         <ul class="gallery-content__images">
-            <li><img src="assets/images/bike_1.jpg"></li>
-            <li><img src="assets/images/bike_2.jpg"></li>
-            <li><img src="assets/images/bike_3.jpg"></li>
-            <li><img src="assets/images/bike_4.jpg"></li>
-            <li><img src="assets/images/bike_5.jpg"></li>
-            <li><img src="assets/images/bike_6.jpg"></li>
-            <li><img src="assets/images/bike_7.jpg"></li>
-            <li><img src="assets/images/bike_8.jpg"></li>
-            <li><img src="assets/images/bike_9.jpg"></li>
+            <li><img src="assets/images/bike_1.webp"></li>
+            <li><img src="assets/images/bike_2.webp"></li>
+            <li><img src="assets/images/bike_3.webp"></li>
+            <li><img src="assets/images/bike_4.webp"></li>
+            <li><img src="assets/images/bike_5.webp"></li>
+            <li><img src="assets/images/bike_6.webp"></li>
+            <li><img src="assets/images/bike_7.webp"></li>
+            <li><img src="assets/images/bike_8.webp"></li>
+            <li><img src="assets/images/bike_9.webp"></li>
         </ul>
         <div class="gallery-content__map">
             <span>0 location-based images</span>
