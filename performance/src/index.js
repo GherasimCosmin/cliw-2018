@@ -56,15 +56,69 @@ function insertDOM() {
     </div>
     <div class="gallery-content">
         <ul class="gallery-content__images">
-            <li><img src="assets/images/bike_1.webp"></li>
-            <li><img src="assets/images/bike_2.webp"></li>
-            <li><img src="assets/images/bike_3.webp"></li>
-            <li><img src="assets/images/bike_4.webp"></li>
-            <li><img src="assets/images/bike_5.webp"></li>
-            <li><img src="assets/images/bike_6.webp"></li>
-            <li><img src="assets/images/bike_7.webp"></li>
-            <li><img src="assets/images/bike_8.webp"></li>
-            <li><img src="assets/images/bike_9.webp"></li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_1.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_1_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_2.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_2_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_3.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_3_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_4.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_4_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_5.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_5_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_6.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_6_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_7.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_7_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_8.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_8_s.webp" />
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="assets/images/bike_1.webp"
+                        media="(min-width: 800px)">
+                        <img src="assets/images/bike_1_s.webp" />
+                </picture>
+            </li>
         </ul>
         <div class="gallery-content__map">
             <span>0 location-based images</span>
