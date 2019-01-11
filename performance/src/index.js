@@ -58,65 +58,101 @@ function insertDOM() {
         <ul class="gallery-content__images">
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_1_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_1.webp"
-                        media="(min-width: 800px)">
-                        <img src="assets/images/bike_1_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_1_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_1.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_2_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_2.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_2_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_2_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_2.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_3_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_3.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_3_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_3_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_3.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_4_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_4.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_4_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_4_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_4.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_5_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_5.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_5_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_5_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_5.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_6_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_6.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_6_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_6_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_6.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_7_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_7.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_7_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_7_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_7.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_8_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_8.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_8_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_8_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_8.jpg" />
                 </picture>
             </li>
             <li>
                 <picture>
+                    <source srcset="assets/images/bike_9_s.webp"
+                        media="(max-width: 700px)" type="image/webp">
                     <source srcset="assets/images/bike_9.webp"
-                        media="(min-width: 400px)">
-                        <img src="assets/images/bike_9_s.webp" />
+                        type="image/webp">
+                    <source srcset="assets/images/bike_9_s.jpg"
+                        media="(max-width: 700px)" type="image/jpeg">
+                        <img src="assets/images/bike_9.jpg" />
                 </picture>
             </li>
         </ul>
